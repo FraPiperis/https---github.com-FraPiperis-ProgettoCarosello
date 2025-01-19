@@ -39,4 +39,51 @@
     margin: 3px;
     font-size: smaller;
 }
+.barra {
+    background-color: rgba(231, 231, 238, 0.539);  
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra img { 
+    background-color: rgb(246, 225, 170);
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.blocco { 
+  align-items: center;
+}
+.Container2 {
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-title{
+    font-size: medium;
+    padding: 10px;
+}
+.card-body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Dati {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(128, 125, 125, 0.639);
+}
+.ultimo {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border-top: 2px solid #9d9999c1;
+    padding: 10px;
+ }
+
+.ultimo img {
+   width: 40px;
+   border-radius: 50%; 
+}
 
